@@ -20,15 +20,15 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  window.open('https://m4tt72.com', '_self');
+  window.open('https://miguelgargallo.com', '_self');
 
   return 'Opening GUI version...';
 };
 
 export const email = async (args: string[]): Promise<string> => {
-  window.open('mailto:hi@nm4tt72.com');
+  window.open('mailto:it@pylar.org');
 
-  return 'Opening mailto:hi@m4tt72.com...';
+  return 'Opening mailto:it@pylar.org...';
 };
 
 export const vi = async (args: string[]): Promise<string> => {
@@ -45,7 +45,7 @@ export const emacs = async (args?: string[]): Promise<string> => {
 
 export const sudo = async (args?: string[]): Promise<string> => {
   setTimeout(function () {
-    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    window.open('https://www.youtube.com/@MiguelGargalloLlamas');
   }, 1000);
 
   return `Permission denied: unable to run the command '${args[0]}' as root.`;
@@ -53,7 +53,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
 
 export const repo = async (args?: string[]): Promise<string> => {
   setTimeout(function () {
-    window.open('https://github.com/m4tt72/terminal', '_blank');
+    window.open('https://github.com/miguelgargallo/TerminalX', '_blank');
   }, 1000);
 
   return 'Opening repository...';
@@ -66,13 +66,15 @@ export const donate = async (args?: string[]): Promise<string> => {
 };
 
 export const banner = (args?: string[]): string => {
-  return `
-███╗   ███╗██╗  ██╗████████╗████████╗███████╗██████╗
-████╗ ████║██║  ██║╚══██╔══╝╚══██╔══╝╚════██║╚════██╗
-██╔████╔██║███████║   ██║      ██║       ██╔╝ █████╔╝
-██║╚██╔╝██║╚════██║   ██║      ██║      ██╔╝ ██╔═══╝
-██║ ╚═╝ ██║     ██║   ██║      ██║      ██║  ███████╗
-╚═╝     ╚═╝     ╚═╝   ╚═╝      ╚═╝      ╚═╝  ╚══════╝ v${packageJson.version}
+  return ` // MIGUEL
+███╗   ███╗  ██╗  ╔████████╗  ╔██   ██╗  ╔███████╗ ╔██
+████╗ ████║  ██║  ║██╔═════╝  ║██   ██║  ║██╔════╝ ║██
+██╔████╔██║  ██║  ║████████║  ║██   ██║  ║███████║ ║██
+██║╚██╔╝██║  ██║  ║██╚╗ ╔██╝  ║██   ██║  ║██╔════╝ ║██
+██║ ╚═╝ ██║  ██║  ║████████╗  ║███████║  ║███████║ ║███████╗
+╚═╝     ╚═╝  ╚═╝  ╚════╝╚══╝  ╚═══════╝  ╚═══════╝ ╚═══════╝
+
+v${packageJson.version}
 
 Type 'help' to see list of available commands.
 
