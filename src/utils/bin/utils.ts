@@ -66,15 +66,13 @@ export const donate = async (args?: string[]): Promise<string> => {
 };
 
 export const banner = (args?: string[]): string => {
-  return ` // MIGUEL
+  return `
 ███╗   ███╗  ██╗  ╔████████╗  ╔██   ██╗  ╔███████╗ ╔██
 ████╗ ████║  ██║  ║██╔═════╝  ║██   ██║  ║██╔════╝ ║██
 ██╔████╔██║  ██║  ║████████║  ║██   ██║  ║███████║ ║██
 ██║╚██╔╝██║  ██║  ║██╚╗ ╔██╝  ║██   ██║  ║██╔════╝ ║██
 ██║ ╚═╝ ██║  ██║  ║████████╗  ║███████║  ║███████║ ║███████╗
-╚═╝     ╚═╝  ╚═╝  ╚════╝╚══╝  ╚═══════╝  ╚═══════╝ ╚═══════╝
-
-v${packageJson.version}
+╚═╝     ╚═╝  ╚═╝  ╚════╝╚══╝  ╚═══════╝  ╚═══════╝ ╚═══════╝ v${packageJson.version}
 
 Type 'help' to see list of available commands.
 
