@@ -1,6 +1,6 @@
 {
   "name": "terminalx",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "license": "MIT",
   "author": {
     "name": "Miguel Gargallo",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/miguelgargallo/terminalx"
+    "url": "https://github.com/miguelgargallo/TermialX"
   },
   "scripts": {
     "start": "next start",
