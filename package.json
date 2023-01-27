@@ -1,19 +1,19 @@
 {
-  "name": "terminal",
-  "version": "2.14.1",
+  "name": "terminalx",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
-    "name": "Yassine Fathi",
+    "name": "Miguel Gargallo",
     "url": "https://m4tt72.com",
-    "email": "hi@m4tt72.com"
+    "email": "it@pylar.org"
   },
   "funding": {
     "type": "Paypal",
-    "url": "https://paypal.me/y4ss1n3"
+    "url": "https://miguelgargallo.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/m4tt72/terminal"
+    "url": "https://github.com/miguelgargallo/terminalx"
   },
   "scripts": {
     "start": "next start",
